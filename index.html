@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
       rel="stylesheet"
     />
     <link
@@ -23,30 +23,118 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <div class="container">
-        <nav>
-          <a href="./index.html">
+    <header class="header">
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a href="./index.html" class="header-logo">
             <img
-              src="./img/logo-black-removebg.png"
+              class="header-logo-img"
+              src="./img/logo.png"
               alt="logo"
-              width="120"
+              width="100"
               height="20"
             />
           </a>
         </nav>
-        <div>
-          <p>Графік роботи Пн-Пт:9:00 - 18:00</p>
-          <a href="tel:+48690591225">+48690591225</a>
+        <div class="header-info">
+          <p class="header-text">Графік роботи Пн-Пт: 9:00 - 18:00</p>
+          <a class="header-tel" href="tel:+48690591225">+48690591225</a>
         </div>
-        <button type="button">
-          <svg class="" width="" height="">
-            <use href="./img/icon.svg#icon-menu"></use>
+        <button type="button" class="header-btn">
+          <svg class="header-open-nemu" width="30" height="30">
+            <use href="./img/icons.svg#icon-line"></use>
           </svg>
         </button>
       </div>
     </header>
-    <main></main>
+    <main>
+      <!-- hero -->
+      <section class="hero">
+        <div class="container hero-container">
+          <h1 class="hero-title">Будь-яка стрижка під ваш стиль</h1>
+          <p class="text hero-text">Готовимо близбко 30 вариантів стрижки</p>
+          <button class="hero-btn" type="submit">
+            <a class="hero-tel" href="tel:+48690591225"
+              >Записатися на стрижку</a
+            >
+          </button>
+        </div>
+      </section>
+      <!-- our services -->
+      <section class="services">
+        <div class="container services-container">
+          <h2 class="title services-title">Наші послуги</h2>
+          <ul class="services-list">
+            <li class="services-item">
+              <img
+                class="services-img"
+                src="./img/DSC09085.JPG"
+                alt=""
+                width="335"
+                height="502"
+              />
+              <div class="services-wrapper">
+                <h3 class="services-subtitle">Борода</h3>
+                <p class="services-price">1000</p>
+                <button class="services-btn" type="button">
+                  <a href="tel:+48690591225">Записатися</a>
+                </button>
+              </div>
+            </li>
+            <li class="services-item">
+              <img
+                class="services-img"
+                src="./img/DSC00222.JPG"
+                alt=""
+                width="335"
+                height="502"
+              />
+              <div class="services-wrapper">
+                <h3 class="services-subtitle">Борода</h3>
+                <p class="services-price">1000</p>
+                <button class="services-btn" type="button">
+                  <a href="tel:+48690591225">Записатися</a>
+                </button>
+              </div>
+            </li>
+            <li class="services-item">
+              <img
+                class="services-img"
+                src="./img/DSC02945.jpg"
+                alt=""
+                width="335"
+                height="502"
+              />
+              <div class="services-wrapper">
+                <h3 class="services-subtitle">Борода</h3>
+                <p class="services-price">1000</p>
+                <button class="services-btn" type="button">
+                  <a href="tel:+48690591225">Записатися</a>
+                </button>
+              </div>
+            </li>
+            <li class="services-item">
+              <img
+                class="services-img"
+                src="./img/DSC00013.JPG"
+                alt=""
+                width="335"
+                height="502"
+              />
+              <div class="services-wrapper">
+                <h3 class="services-subtitle">Борода</h3>
+                <p class="services-price">1000</p>
+                <button class="services-btn" type="button">
+                  <a href="tel:+48690591225">Записатися</a>
+                </button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section></section>
+      <section></section>
+    </main>
     <footer></footer>
     <script type="module" src="./js/task-1.js"></script>
   </body>
