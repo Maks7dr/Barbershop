@@ -20,6 +20,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -132,6 +136,55 @@
           </ul>
         </div>
       </section>
+      <section class="gallery">
+        <div class="container gallery-container">
+          <h2 class="title gallery-title">Наші роботи</h2>
+          <!-- Slider main container -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img
+                  class="gallery-img"
+                  src="./img/DSC09085.JPG"
+                  alt=""
+                  width="335"
+                  height="502"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="gallery-img"
+                  src="./img/DSC00222.JPG"
+                  alt=""
+                  width="335"
+                  height="502"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="gallery-img"
+                  src="./img/DSC02945.jpg"
+                  alt=""
+                  width="335"
+                  height="502"
+                />
+              </div>
+              ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+        </div>
+      </section>
       <section class="about">
         <div class="container about-container">
           <h2 class="title about-title">
@@ -215,9 +268,9 @@
           </div>
         </div>
       </section>
-      <section></section>
     </main>
     <footer></footer>
-    <script type="module" src="./js/task-1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module" src="./js/swiper.js"></script>
   </body>
 </html>
