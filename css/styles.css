@@ -3,7 +3,7 @@
 :root {
   --color-black-text: #141414;
   --color-white-text: #fbfbfb;
-  --color-primary-brand: #7a3145;
+  --color-primary-brand: #ab7200;
   --color-accent: #d4bfc4;
   --color-green-background: #576f35;
   --сolor-details: #858585;
@@ -275,5 +275,73 @@ address {
   .services-btn {
     width: 240px;
   }
+}
+/* #endregion */
+
+/* #region about */
+
+.about {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.about-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about-title {
+  margin-bottom: 20px;
+}
+.about-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.about-address {
+}
+.about-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.about-item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.about-icons {
+}
+.about-text {
+  font-size: 14px;
+  font-weight: 400;
+}
+.about-social {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.about-social-item {
+}
+.about-social-link {
+}
+.about-map {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.about-video {
+  display: flex;
+  max-width: 375px;
+  max-height: 300px;
+}
+
+.about-icons {
+  fill: var(--color-primary-brand);
 }
 /* #endregion */
