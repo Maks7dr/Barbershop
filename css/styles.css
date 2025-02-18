@@ -100,6 +100,14 @@ address {
   }
 }
 
+.text-golden {
+  color: var(--color-primary-brand);
+}
+/* .sections {
+  padding-top: 40px;
+  padding-bottom: 40px;
+} */
+
 /* #endregion */
 
 /* #region header */
@@ -205,7 +213,7 @@ address {
 /* #region services */
 
 .services {
-  padding-top: 20px;
+  padding-top: 40px;
   padding-bottom: 40px;
 }
 .services-container {
@@ -230,35 +238,61 @@ address {
   flex-direction: column;
   gap: 10px;
   border-radius: 10px;
+
+  overflow: hidden;
+}
+.services-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.3s ease;
+  border-radius: 10px;
+}
+
+.services-item:hover::before {
+  background: rgba(0, 0, 0, 0.5);
+}
+.services-item:hover .services-price {
+  opacity: 1;
+  visibility: visible;
 }
 .services-img {
   object-fit: cover;
   border-radius: 10px;
 }
+
 .services-wrapper {
   position: absolute;
   top: 20px;
   left: 20px;
+  right: 20px;
   display: flex;
   flex-direction: column;
+  height: 90%;
 }
+
 .services-subtitle {
   font-size: 16px;
   font-weight: 400;
   text-transform: uppercase;
-  margin-top: auto;
-  margin-bottom: 380px;
+  margin-bottom: auto;
 }
-@media only screen and (max-width: 375px) {
-  .services-subtitle {
-    margin-bottom: 300px;
-  }
-}
+
 .services-price {
-  font-size: 16px;
-  font-weight: 700;
+  font-size: 12px;
+  font-weight: 400;
   text-transform: uppercase;
-  margin-bottom: 7px;
+  margin-bottom: 12px;
+  width: 100%;
+  padding: 10px;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 .services-btn {
   display: flex;
@@ -276,6 +310,7 @@ address {
     width: 240px;
   }
 }
+
 /* #endregion */
 
 /* #region about */
@@ -339,6 +374,7 @@ address {
   display: flex;
   max-width: 375px;
   max-height: 300px;
+  border-radius: 10px;
 }
 
 .about-icons {
@@ -349,16 +385,24 @@ address {
 /* #region gallery */
 
 .gallery {
-  padding-top: 40px;
+  /* padding-top: 40px; */
   padding-bottom: 40px;
 }
 .gallery-title {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
+.gallery-img {
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 10px;
 }
 .swiper {
   max-width: 375px;
 }
 .swiper-pagination {
+  .swiper-pagination-bullet {
+    background-color: var(--color-primary-brand);
+  }
 }
 .swiper-button-prev {
   color: var(--color-primary-brand);
@@ -366,5 +410,104 @@ address {
 .swiper-button-next {
   color: var(--color-primary-brand);
 }
+/* #endregion */
+
+/* #region info */
+
+.info {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/DSC00206.JPG);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.info-title {
+  margin-bottom: 20px;
+}
+/* #endregion */
+
+/* #region staff */
+
+.staff {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.staff-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.staff-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.staff-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.staff-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.3s ease;
+  border-radius: 10px;
+}
+.staff-item:hover::before {
+  background: rgba(0, 0, 0, 0.5);
+}
+.staff-item:hover .staff-text {
+  opacity: 1;
+  visibility: visible;
+}
+
+.staff-img {
+  object-fit: cover;
+  border-radius: 10px;
+}
+.staff-wrapper {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+}
+.staff-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: auto;
+}
+.staff-text {
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  width: 100%;
+  padding: 10px;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* .staff-item:hover .staff-text {
+  opacity: 1;
+  visibility: visible;
+} */
 
 /* #endregion */
