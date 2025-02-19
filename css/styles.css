@@ -8,7 +8,12 @@
   --color-green-background: #576f35;
   --сolor-details: #858585;
   --color-transparent-black: rgba(20, 20, 20, 0.2);
-  --color-success-state: #3cbc81;
+  --color-social-facebook: #3b5998;
+  --color-social-instagram: #e4405f;
+  --color-social-twitter: #1da1f2;
+  --color-social-youtube: #ff0000;
+  --color-social-linkedin: #0e76a8;
+  --color-whatsapp: #25d366;
   --color-error-state: #e74a3b;
 }
 
@@ -155,6 +160,12 @@ address {
   .header-item {
   }
   .header-link {
+    transition: 0.3s ease;
+    transition-property: color transform;
+  }
+  .header-link:hover {
+    color: var(--color-primary-brand);
+    transform: scale(1.1);
   }
 }
 .header-info {
@@ -255,6 +266,10 @@ address {
 .modal-link {
   font-size: 24px;
   font-weight: 700;
+  transition: color 0.3s ease;
+}
+.modal-link:active {
+  color: var(--color-primary-brand);
 }
 .header-info {
 }
@@ -269,7 +284,7 @@ address {
 
 .hero {
   position: relative;
-  background-image: url(../img/DSC00100.JPG);
+  background-image: url(../img/hero.webp);
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 300px;
@@ -417,75 +432,6 @@ address {
 
 /* #endregion */
 
-/* #region about */
-
-.about {
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-.about-container {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.about-title {
-  margin-bottom: 20px;
-}
-.about-info {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.about-subtitle {
-  font-size: 16px;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-.about-address {
-}
-.about-list {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.about-item {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-}
-.about-icons {
-}
-.about-text {
-  font-size: 14px;
-  font-weight: 400;
-}
-.about-social {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  justify-content: center;
-}
-.about-social-item {
-}
-.about-social-link {
-}
-.about-map {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.about-video {
-  display: flex;
-  max-width: 375px;
-  max-height: 300px;
-  border-radius: 10px;
-}
-
-.about-icons {
-  fill: var(--color-primary-brand);
-}
-/* #endregion */
-
 /* #region gallery */
 
 .gallery {
@@ -520,7 +466,7 @@ address {
 
 .info {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../img/DSC00206.JPG);
+    url(../img/info.webp);
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -614,4 +560,102 @@ address {
   visibility: visible;
 } */
 
+/* #endregion */
+
+/* #region about */
+
+.about {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.about-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about-title {
+  margin-bottom: 20px;
+}
+.about-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.about-address {
+}
+.about-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.about-item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.about-icons {
+}
+.about-text {
+  font-size: 14px;
+  font-weight: 400;
+}
+.about-social {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.about-social-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+.about-social-item:hover {
+  transform: scale(1.2);
+}
+.about-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: var(--color-white-text);
+  transition: 0.3s ease;
+  transition-property: color, scale(1);
+}
+.about-place {
+  fill: var(--color-primary-brand);
+}
+.about-icons:hover {
+  transform: scale(1.2);
+}
+.about-social-link {
+}
+.about-map {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.about-video {
+  display: flex;
+  max-width: 375px;
+  max-height: 300px;
+  border-radius: 10px;
+}
+.social-facebook {
+  background-color: var(--color-social-facebook);
+}
+.social-instagram {
+  background-color: var(--color-social-instagram);
+}
+.social-whatsapp {
+  background-color: var(--color-whatsapp);
+}
 /* #endregion */
