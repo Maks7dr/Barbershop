@@ -62,6 +62,7 @@
             <a
               class="about-social-link"
               href="https://www.facebook.com/permanentnyMakeUp"
+              aria-label="Facebook"
             >
               <svg class="about-icons" width="24" height="24">
                 <use href="./img/icons.svg#icon-facebook"></use>
@@ -72,6 +73,7 @@
             <a
               class="about-social-link"
               href="https://www.instagram.com/goldenarms_studio/?igsh=MXgyYjFjbThwY2lkdg%3D%3D&utm_source=qr#"
+              aria-label="Instagram"
             >
               <svg class="about-icons" width="24" height="24">
                 <use href="./img/icons.svg#icon-instagram"></use>
@@ -79,7 +81,11 @@
             </a>
           </li>
           <li class="about-social-item social-whatsapp">
-            <a class="about-social-link" href="#">
+            <a
+              class="about-social-link"
+              href="https://wa.me/+48690591225"
+              aria-label="WhatsApp"
+            >
               <svg class="about-icons" width="24" height="24">
                 <use href="./img/icons.svg#icon-whatsapp"></use>
               </svg>
@@ -88,7 +94,12 @@
         </ul>
         <div class="header-info">
           <p class="header-text">Графік роботи Пн-Сб: 10:00 - 20:00</p>
-          <a class="header-tel" href="tel:+48690591225">+48690591225</a>
+          <a
+            class="header-tel"
+            href="https://wa.me/+48690591225"
+            aria-label="WhatsApp"
+            >+48690591225</a
+          >
         </div>
         <button type="button" class="header-btn js-open-menu">
           <svg class="header-open-nemu" width="30" height="30">
@@ -124,6 +135,7 @@
             <a
               class="about-social-link"
               href="https://www.facebook.com/permanentnyMakeUp"
+              aria-label="Facebook"
             >
               <svg class="about-icons" width="24" height="24">
                 <use href="./img/icons.svg#icon-facebook"></use>
@@ -134,6 +146,7 @@
             <a
               class="about-social-link"
               href="https://www.instagram.com/goldenarms_studio/?igsh=MXgyYjFjbThwY2lkdg%3D%3D&utm_source=qr#"
+              aria-label="Instagram"
             >
               <svg class="about-icons" width="24" height="24">
                 <use href="./img/icons.svg#icon-instagram"></use>
@@ -141,7 +154,11 @@
             </a>
           </li>
           <li class="about-social-item social-whatsapp">
-            <a class="about-social-link" href="#">
+            <a
+              class="about-social-link"
+              href="https://wa.me/+48690591225"
+              aria-label="WhatsApp"
+            >
               <svg class="about-icons" width="24" height="24">
                 <use href="./img/icons.svg#icon-whatsapp"></use>
               </svg>
@@ -163,8 +180,11 @@
             30 відтінків стилю для твого волосся! Знайди свій унікальний образ
             разом з нами.
           </p>
-          <button class="hero-btn" type="submit">
-            <a class="hero-tel" href="tel:+48690591225"
+          <button class="hero-btn btn" type="submit">
+            <a
+              class="hero-tel"
+              href="https://wa.me/+48690591225"
+              aria-label="WhatsApp"
               >Записатися на стрижку</a
             >
           </button>
@@ -197,8 +217,8 @@
                   професійний підхід, увага до деталей та дружня атмосфера, в
                   яку хочеться повертатися.
                 </p>
-                <button class="services-btn" type="button">
-                  <a href="tel:+48690591225">Подивитися ціни</a>
+                <button class="services-btn btn" type="button" data-modal-open>
+                  Подивитися ціни
                 </button>
               </div>
             </li>
@@ -224,8 +244,8 @@
                   Перманентний макіяж – це впевненість у собі щоранку, без
                   зайвих зусиль. Будьте красивими завжди!
                 </p>
-                <button class="services-btn" type="button">
-                  <a href="tel:+48690591225">Подивитися ціни</a>
+                <button class="services-btn btn" type="button" data-modal-open>
+                  Подивитися ціни
                 </button>
               </div>
             </li>
@@ -253,12 +273,129 @@
                   волосся. Результат виглядає максимально природно та
                   зберігається на довгі роки.
                 </p>
-                <button class="services-btn" type="button">
-                  <a href="tel:+48690591225">Подивитися ціни</a>
+                <button class="services-btn btn" type="button" data-modal-open>
+                  Подивитися ціни
                 </button>
               </div>
             </li>
           </ul>
+        </div>
+        <div class="overlay-price-barber is-hidden" data-modal>
+          <div class="price-barber">
+            <button type="button" class="price-barber-close" data-modal-close>
+              <svg class="price-barber-close-icon" width="30" height="30">
+                <use href="./img/icons.svg#icon-close"></use>
+              </svg>
+            </button>
+            <h2 class="barber-title">Послуги Тіна</h2>
+
+            <h3 class="barber-subtitle">Makijaż permanentny</h3>
+            <ul class="barber-service-list">
+              <li class="barber-service-item">
+                <p class="barber-service-text">
+                  Makijaż permanentny brwi metoda Pudrowa oraz Ombre
+                </p>
+                <span class="barber-price">700 zł</span>
+                <span class="barber-time">(1h 30m)</span>
+              </li>
+              <li class="barber-service-item">
+                <p class="barber-service-text">Makijaż permanentny ust</p>
+                <span class="barber-price">800 zł</span>
+                <span class="barber-time">(2h)</span>
+              </li>
+              <li class="barber-service-item">
+                <p class="barber-service-text">
+                  PMU korekta brwi (Tylko po mojej pracy)
+                </p>
+                <span class="barber-price">300 zł</span>
+                <span class="barber-time">(1h 30m)</span>
+              </li>
+              <li class="barber-service-item">
+                <p class="barber-service-text">
+                  PMU korekta ust (Tylko po mojej работе)
+                </p>
+                <span class="barber-price">300 zł</span>
+                <span class="barber-time">(1h 30m)</span>
+              </li>
+              <li class="barber-service-item">
+                <p class="barber-service-text">
+                  Odnowa makijażu permanentnego (brwi, usta)
+                </p>
+                <span class="barber-price">450 zł</span>
+                <span class="barber-time">(1h 30m)</span>
+              </li>
+              <li class="barber-service-item">
+                <p class="barber-service-text">
+                  Combo - Makijaż permanentny brwi + usta
+                </p>
+                <span class="barber-price">1350 zł</span>
+                <span class="barber-time">(4h)</span>
+              </li>
+              <li class="barber-service-item">
+                <p class="barber-service-text">
+                  Korekta makijażu permanentnego brwi + usta
+                </p>
+                <span class="barber-price">500 zł</span>
+                <span class="barber-time">(3h)</span>
+              </li>
+              <li class="barber-service-item">
+                <p class="barber-service-text">
+                  Usunięcie makijażu permanentnego Removerem
+                </p>
+                <span class="barber-price">150 zł</span>
+                <span class="barber-time">(30m)</span>
+              </li>
+            </ul>
+
+            <h3 class="barber-subtitle">Brwi</h3>
+            <ul class="barber-service-list">
+              <li class="barber-service-item">
+                <p class="barber-service-text">
+                  Laminacja brwi + regulacja + farbka
+                </p>
+                <span class="barber-price">150 zł</span>
+                <span class="barber-time">(1h 30m)</span>
+              </li>
+              <li class="barber-service-item">
+                <p class="barber-service-text">
+                  Henna pudrowa brwi + regulacja
+                </p>
+                <span class="barber-price">80 zł</span>
+                <span class="barber-time">(1h)</span>
+              </li>
+              <li class="barber-service-item">
+                <p class="barber-service-text">Farbka brwi + regulacja</p>
+                <span class="barber-price">80 zł</span>
+                <span class="barber-time">(1h)</span>
+              </li>
+              <li class="barber-service-item">
+                <p class="barber-service-text">Regulacja i geometria brwi</p>
+                <span class="barber-price">40 zł</span>
+                <span class="barber-time">(25m)</span>
+              </li>
+              <li class="barber-service-item">
+                <p class="barber-service-text">
+                  Regulacja i geometria brwi pęseta + wąsik
+                </p>
+                <span class="barber-price">50 zł</span>
+                <span class="barber-time">(30m)</span>
+              </li>
+              <li class="barber-service-item">
+                <p class="barber-service-text">
+                  Laminacja brwi (bez farbki) + regulacja
+                </p>
+                <span class="barber-price">100 zł</span>
+                <span class="barber-time">(45m)</span>
+              </li>
+              <li class="barber-service-item">
+                <p class="barber-service-text">
+                  PAKIET: Farbowanie rzęs + brwi
+                </p>
+                <span class="barber-price">140 zł</span>
+                <span class="barber-time">(1h)</span>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
       <!-- info -->
@@ -405,6 +542,7 @@
       </section>
       <!-- about -->
     </main>
+    <!-- about -->
     <footer id="about" class="about sections">
       <div class="container about-container">
         <h2 class="title about-title">
@@ -432,7 +570,12 @@
                 <svg class="about-icons about-place" width="24" height="24">
                   <use href="./img/icons.svg#icon-phone"></use>
                 </svg>
-                <a class="about-text" href="tel:+48690591225">+48690591225</a>
+                <a
+                  class="about-text"
+                  href="https://wa.me/+48690591225"
+                  aria-label="WhatsApp"
+                  >+48690591225</a
+                >
               </li>
               <li class="about-item">
                 <svg class="about-icons about-place" width="24" height="24">
@@ -449,6 +592,7 @@
               <a
                 class="about-social-link"
                 href="https://www.facebook.com/permanentnyMakeUp"
+                aria-label="Facebook"
               >
                 <svg class="about-icons" width="24" height="24">
                   <use href="./img/icons.svg#icon-facebook"></use>
@@ -459,6 +603,7 @@
               <a
                 class="about-social-link"
                 href="https://www.instagram.com/goldenarms_studio/?igsh=MXgyYjFjbThwY2lkdg%3D%3D&utm_source=qr#"
+                aria-label="Instagram"
               >
                 <svg class="about-icons" width="24" height="24">
                   <use href="./img/icons.svg#icon-instagram"></use>
@@ -466,7 +611,11 @@
               </a>
             </li>
             <li class="about-social-item social-whatsapp">
-              <a class="about-social-link" href="#">
+              <a
+                class="about-social-link"
+                href="https://wa.me/+48690591225"
+                aria-label="WhatsApp"
+              >
                 <svg class="about-icons" width="24" height="24">
                   <use href="./img/icons.svg#icon-whatsapp"></use>
                 </svg>
