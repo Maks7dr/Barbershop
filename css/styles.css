@@ -12,6 +12,10 @@
   --color-error-state: #e74a3b;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Montserrat', serif;
   font-weight: 500;
@@ -126,11 +130,32 @@ address {
   justify-content: space-between;
   align-items: center;
 }
-.header-nav {
+.header-list {
+  display: none;
 }
 .header-logo {
+  display: flex;
 }
 .header-logo-img {
+}
+
+@media only screen and (min-width: 1280px) {
+  .header-nav {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+  }
+
+  .header-list {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-item {
+  }
+  .header-link {
+  }
 }
 .header-info {
   display: flex;
@@ -155,8 +180,87 @@ address {
   border: none;
   border-radius: 5px;
 }
+@media only screen and (min-width: 1280px) {
+  .header-btn {
+    display: none;
+  }
+}
 .header-open-nemu {
   stroke: var(--color-white-text);
+}
+.header-social {
+  display: none;
+}
+@media only screen and (min-width: 1280px) {
+  .header-social {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* #endregion */
+
+/* #region modal menu */
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--color-black-text);
+  padding: 32px;
+  z-index: 999;
+
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
+}
+@media only screen and (min-width: 1280px) {
+  .overlay {
+    display: none;
+  }
+}
+.overlay.active {
+  transform: translateX(0);
+}
+.modal-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  stroke: var(--color-white-text);
+}
+.modal-close-icon {
+}
+.modal-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.modal-item {
+}
+.modal-link {
+  font-size: 24px;
+  font-weight: 700;
+}
+.header-info {
+}
+.header-text {
+}
+.header-tel {
 }
 
 /* #endregion */
