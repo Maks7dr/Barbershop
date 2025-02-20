@@ -812,6 +812,18 @@ address {
   flex-direction: column;
   gap: 20px;
 }
+@media only screen and (min-width: 768px) {
+  .about-info {
+    flex-direction: row;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .about-info {
+    gap: 100px;
+    justify-content: center;
+  }
+}
+
 .about-subtitle {
   font-size: 16px;
   font-weight: 400;
@@ -823,6 +835,7 @@ address {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin-top: 20px;
 }
 .about-item {
   display: flex;
