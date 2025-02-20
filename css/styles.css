@@ -207,11 +207,15 @@ address {
 .header-lang {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 10px;
+}
+.header-lang-link {
+  transition: ease 0.3s;
+  transition-property: transform;
 }
 .header-lang-link:active,
 .header-lang-link:hover {
-  color: var(--color-primary-brand);
+  transform: scale(1.2);
 }
 .header-btn {
   display: flex;
