@@ -70,28 +70,28 @@ const swiper = new Swiper('.swiper', {
 
 // modal
 (() => {
-  const refs = {
-    openModalBtn: document.querySelectorAll('[data-modal-open]'),
-    closeModalBtn: document.querySelector('[data-modal-close]'),
-    modal: document.querySelector('[data-modal]'),
-  };
+  const openModalBtns = document.querySelectorAll('[data-modal-open]');
+  const closeModalBtns = document.querySelectorAll('[data-modal-close]');
+  const modals = document.querySelectorAll('[data-modal]');
 
-  refs.openModalBtn.forEach(element => {
-    element.addEventListener('click', toggleModal);
+  openModalBtns.forEach((btn, index) => {
+    btn.addEventListener('click', () => {
+      modals[index].classList.remove('is-hidden');
+      document.body.classList.add('no-scroll');
+    });
   });
-  refs.closeModalBtn.addEventListener('click', toggleModal);
-
-  //* Закривання по кліку на бекдроп
-
-  refs.modal.addEventListener('click', removeModal);
-  function removeModal(e) {
-    if (e.target === e.currentTarget) {
-      refs.modal.classList.add('is-hidden');
-    }
-  }
-
-  function toggleModal() {
-    refs.modal.classList.toggle('is-hidden');
-    document.body.classList.toggle('no-scroll');
-  }
+  closeModalBtns.forEach((btn, index) => {
+    btn.addEventListener('click', () => {
+      modals[index].classList.add('is-hidden');
+      document.body.classList.remove('no-scroll');
+    });
+  });
+  modals.forEach(modal => {
+    modal.addEventListener('click', e => {
+      if (e.target === modal) {
+        modal.classList.add('is-hidden');
+        document.body.classList.remove('no-scroll');
+      }
+    });
+  });
 })();
