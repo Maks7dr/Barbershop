@@ -6,7 +6,7 @@
     <meta name="description" content="Barbershop Golden Arms" />
     <meta name="keywords" content="Barbershop Golden Arms" />
     <meta name="author" content="Maksym Drachenko" />
-    <link rel="icon" type="image/svg+xml" href="./img/logo.png" />
+    <link rel="icon" type="image/svg+xml" href="./img/favicon.png" />
     <title>Golden Arms</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -35,7 +35,7 @@
   </head>
   <body>
     <!-- header -->
-    <header class="header">
+    <header class="header" id="header">
       <div class="container header-container">
         <nav class="header-nav">
           <a href="./index.html" class="header-logo">
@@ -219,6 +219,12 @@
       <!-- our services -->
       <section id="services" class="services sections">
         <div class="container services-container">
+          <a href="#header" class="btn-scroll-up"
+            ><svg class="scroll-icon" width="28" height="28">
+              <use href="./img/icons.svg#icon-arrow"></use>
+            </svg>
+          </a>
+
           <h2 class="title services-title">Наші послуги</h2>
           <ul class="services-list">
             <li class="services-item">
