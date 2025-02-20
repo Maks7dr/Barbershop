@@ -207,7 +207,7 @@ address {
 .header-lang {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
 }
 .header-lang-link {
   transition: ease 0.3s;
@@ -347,6 +347,9 @@ address {
 }
 
 .hero-text {
+  font-size: 20px;
+  font-weight: 500;
+  max-width: 500px;
 }
 .hero-btn {
 }
@@ -610,7 +613,8 @@ address {
 }
 @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .info {
-    background-image: url(../img/info@2x.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../img/info@2x.webp);
   }
 }
 .info-title {
@@ -718,7 +722,12 @@ address {
 }
 @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .smp {
-    background-image: url(../img/smp@2x.webp);
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../img/spm@2x.webp);
   }
 }
 .smp-container {
