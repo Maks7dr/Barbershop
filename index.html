@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ua">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,13 +20,20 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- Swiper -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+    <!-- BasicLightbox -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <!-- header -->
     <header class="header">
       <div class="container header-container">
         <nav class="header-nav">
@@ -63,6 +70,7 @@
               class="about-social-link"
               href="https://www.facebook.com/permanentnyMakeUp"
               aria-label="Facebook"
+              target="_blank"
             >
               <svg class="about-icons" width="24" height="24">
                 <use href="./img/icons.svg#icon-facebook"></use>
@@ -74,6 +82,7 @@
               class="about-social-link"
               href="https://www.instagram.com/goldenarms_studio/?igsh=MXgyYjFjbThwY2lkdg%3D%3D&utm_source=qr#"
               aria-label="Instagram"
+              target="_blank"
             >
               <svg class="about-icons" width="24" height="24">
                 <use href="./img/icons.svg#icon-instagram"></use>
@@ -85,6 +94,7 @@
               class="about-social-link"
               href="https://wa.me/+48690591225"
               aria-label="WhatsApp"
+              target="_blank"
             >
               <svg class="about-icons" width="24" height="24">
                 <use href="./img/icons.svg#icon-whatsapp"></use>
@@ -96,10 +106,15 @@
           <p class="header-text">Графік роботи Пн-Сб: 10:00 - 20:00</p>
           <a
             class="header-tel"
-            href="https://wa.me/+48690591225"
+            href="tel:+48690591225"
             aria-label="WhatsApp"
+            target="_blank"
             >+48690591225</a
           >
+        </div>
+        <div class="header-lang">
+          <a href="./index.html" class="header-lang-link">UA</a>
+          <a href="#" class="header-lang-link">PL</a>
         </div>
         <button type="button" class="header-btn js-open-menu">
           <svg class="header-open-nemu" width="30" height="30">
@@ -136,6 +151,7 @@
               class="about-social-link"
               href="https://www.facebook.com/permanentnyMakeUp"
               aria-label="Facebook"
+              target="_blank"
             >
               <svg class="about-icons" width="24" height="24">
                 <use href="./img/icons.svg#icon-facebook"></use>
@@ -147,6 +163,7 @@
               class="about-social-link"
               href="https://www.instagram.com/goldenarms_studio/?igsh=MXgyYjFjbThwY2lkdg%3D%3D&utm_source=qr#"
               aria-label="Instagram"
+              target="_blank"
             >
               <svg class="about-icons" width="24" height="24">
                 <use href="./img/icons.svg#icon-instagram"></use>
@@ -158,6 +175,7 @@
               class="about-social-link"
               href="https://wa.me/+48690591225"
               aria-label="WhatsApp"
+              target="_blank"
             >
               <svg class="about-icons" width="24" height="24">
                 <use href="./img/icons.svg#icon-whatsapp"></use>
@@ -180,14 +198,14 @@
             30 відтінків стилю для твого волосся! Знайди свій унікальний образ
             разом з нами.
           </p>
-          <button class="hero-btn btn" type="submit">
-            <a
-              class="hero-tel"
-              href="https://wa.me/+48690591225"
-              aria-label="WhatsApp"
-              >Записатися на стрижку</a
-            >
-          </button>
+
+          <a
+            class="hero-tel"
+            href="https://wa.me/+48690591225"
+            aria-label="WhatsApp"
+            target="_blank"
+            >Записатися на стрижку</a
+          >
         </div>
       </section>
       <!-- our services -->
@@ -288,6 +306,45 @@
               </svg>
             </button>
             <h2 class="barber-title">Послуги Тіна</h2>
+
+            <ul class="header-social price-barber-social">
+              <li class="about-social-item social-facebook">
+                <a
+                  class="about-social-link"
+                  href="https://www.facebook.com/permanentnyMakeUp"
+                  aria-label="Facebook"
+                  target="_blank"
+                >
+                  <svg class="about-icons" width="24" height="24">
+                    <use href="./img/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="about-social-item social-instagram">
+                <a
+                  class="about-social-link"
+                  href="https://www.instagram.com/goldenarms_studio/?igsh=MXgyYjFjbThwY2lkdg%3D%3D&utm_source=qr#"
+                  aria-label="Instagram"
+                  target="_blank"
+                >
+                  <svg class="about-icons" width="24" height="24">
+                    <use href="./img/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="about-social-item social-whatsapp">
+                <a
+                  class="about-social-link"
+                  href="https://wa.me/+48690591225"
+                  aria-label="WhatsApp"
+                  target="_blank"
+                >
+                  <svg class="about-icons" width="24" height="24">
+                    <use href="./img/icons.svg#icon-whatsapp"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
 
             <h3 class="barber-subtitle">Makijaż permanentny</h3>
             <ul class="barber-service-list">
@@ -491,6 +548,39 @@
           </ul>
         </div>
       </section>
+      <!-- smp -->
+      <section class="smp sections">
+        <div class="container smp-container">
+          <h2 class="title smp-title">SMP</h2>
+          <div class="smp-box">
+            <p class="text smp-text">
+              Мікропігментація шкіри голови
+              <span class="text-golden">(SMP)</span> – це інноваційна процедура,
+              яка створює візуальний ефект коротко стриженого волосся або
+              збільшує його щільність. Це ідеальне рішення для тих, хто
+              стикається з облисінням, рідким волоссям або шрамами на шкірі
+              голови. Процедура виконується за допомогою спеціального обладнання
+              та гіпоалергенних пігментів, які вводяться у верхні шари шкіри,
+              імітуючи природний ріст волосся. Результат виглядає максимально
+              природно та зберігається на довгі роки.
+            </p>
+            <div class="smp-wrapper">
+              <h3 class="smp-subtittle">Мікропігментація - це:</h3>
+              <ul class="smp-list">
+                <li class="smp-item">Реалістичний ефект густого волосся</li>
+                <li class="smp-item">Імітація волосся</li>
+                <li class="smp-item">Безпека та безболісність</li>
+                <li class="smp-item">Довговічний результат</li>
+                <li class="smp-item">Альтернатива трансплантації</li>
+              </ul>
+            </div>
+            <p class="text smp-text">
+              Поверніть собі впевненість - підкресліть свій стиль за допомогою
+              мікропігментації!
+            </p>
+          </div>
+        </div>
+      </section>
       <!-- gallery -->
       <section id="gallery" class="gallery sections">
         <div class="container gallery-container">
@@ -574,6 +664,7 @@
                   class="about-text"
                   href="https://wa.me/+48690591225"
                   aria-label="WhatsApp"
+                  target="_blank"
                   >+48690591225</a
                 >
               </li>
@@ -593,6 +684,7 @@
                 class="about-social-link"
                 href="https://www.facebook.com/permanentnyMakeUp"
                 aria-label="Facebook"
+                target="_blank"
               >
                 <svg class="about-icons" width="24" height="24">
                   <use href="./img/icons.svg#icon-facebook"></use>
@@ -604,6 +696,7 @@
                 class="about-social-link"
                 href="https://www.instagram.com/goldenarms_studio/?igsh=MXgyYjFjbThwY2lkdg%3D%3D&utm_source=qr#"
                 aria-label="Instagram"
+                target="_blank"
               >
                 <svg class="about-icons" width="24" height="24">
                   <use href="./img/icons.svg#icon-instagram"></use>
@@ -615,6 +708,7 @@
                 class="about-social-link"
                 href="https://wa.me/+48690591225"
                 aria-label="WhatsApp"
+                target="_blank"
               >
                 <svg class="about-icons" width="24" height="24">
                   <use href="./img/icons.svg#icon-whatsapp"></use>
@@ -637,7 +731,9 @@
         </div>
       </div>
     </footer>
+    <!-- script -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js"></script>
     <script type="module" src="./js/swiper.js"></script>
   </body>
 </html>
