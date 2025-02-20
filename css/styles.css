@@ -318,12 +318,18 @@ address {
 
 .hero {
   position: relative;
-  background-image: url(../img/hero.webp);
+  background-image: url(../img/hero@1x.webp);
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 300px;
   padding-bottom: 300px;
 }
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../img/hero@2x.webp);
+  }
+}
+
 .hero-container {
   display: flex;
   flex-direction: column;
@@ -593,7 +599,7 @@ address {
 
 .info {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../img/info.webp);
+    url(../img/info@1x.webp);
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -601,6 +607,11 @@ address {
   overflow: hidden;
   padding-top: 40px;
   padding-bottom: 40px;
+}
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .info {
+    background-image: url(../img/info@2x.webp);
+  }
 }
 .info-title {
   margin-bottom: 20px;
@@ -700,10 +711,15 @@ address {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url(../img/spm.webp);
+    url(../img/spm@1x.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .smp {
+    background-image: url(../img/smp@2x.webp);
+  }
 }
 .smp-container {
   display: flex;
