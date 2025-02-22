@@ -51,6 +51,112 @@ const translations = {
     aboutContact: 'Наші контакти:',
     aboutAddress: 'Babiego Lata 22, 53-020 Wrocław, Польша',
     aboutSubtitle: 'Адреса салону:',
+    barberPriceYaroslav: 'Барбер Ярослав',
+    barberPriceYTina: 'Послуги Тіна',
+    barberPriceYTinaMakeup: 'Перманентний макіяж',
+    barberPriceYTinaEyebrow: 'Брови',
+    barberPriceYTinaSmp: 'Тіна',
+    barberServices: [
+      { name: 'Стрижка', price: '110 грн', time: '50 хв' },
+      { name: 'Стрижка + борода', price: '150 грн', time: '1 год 25 хв' },
+      {
+        name: 'Борода + гоління готовим шейвером на нуль',
+        price: '110 грн',
+        time: '50 хв',
+      },
+      {
+        name: 'Стрижка бороди + фарбування',
+        price: '160 грн',
+        time: '1 год 15 хв',
+      },
+      {
+        name: 'Комбо: Фарбування волосся + борода + стрижка',
+        price: '280 грн',
+        time: '2 год',
+      },
+      {
+        name: 'Комбо: волосся + борода + фарбування бороди',
+        price: '230 грн',
+        time: '1 год 40 хв',
+      },
+      { name: 'Стрижка бороди', price: '90 грн', time: '40 хв' },
+      {
+        name: 'Стрижка + фарбування волосся в темні кольори',
+        price: '180 грн',
+        time: '1 год 30 хв',
+      },
+      { name: 'Укладання волосся', price: '30 грн', time: '10 хв' },
+      { name: 'Гоління голови бритвою', price: '50 грн', time: '0 хв' },
+    ],
+    tinaServices: [
+      {
+        name: 'Перманентний макіяж брів методом пудрового напилення та омбре',
+        price: '700 грн',
+        time: '1 год 30 хв',
+      },
+      { name: 'Перманентний макіяж губ', price: '800 грн', time: '2 год' },
+      {
+        name: 'Корекція перманентного макіяжу брів (тільки після моєї роботи)',
+        price: '300 грн',
+        time: '1 год 30 хв',
+      },
+      {
+        name: 'Корекція перманентного макіяжу губ (тільки після моєї роботи)',
+        price: '300 грн',
+        time: '1 год 30 хв',
+      },
+      {
+        name: 'Оновлення перманентного макіяжу (брови, губи)',
+        price: '450 грн',
+        time: '1 год 30 хв',
+      },
+      {
+        name: 'Комбо - Перманентний макіяж брів + губи',
+        price: '1350 грн',
+        time: '4 год',
+      },
+      {
+        name: 'Корекція перманентного макіяжу брів + губи',
+        price: '500 грн',
+        time: '3 год',
+      },
+      {
+        name: 'Видалення перманентного макіяжу ремувером',
+        price: '150 грн',
+        time: '30 хв',
+      },
+    ],
+    tinaServicesEyebrows: [
+      {
+        name: 'Ламінування брів + корекція + фарбування',
+        price: '150 грн',
+        time: '1 год 30 хв',
+      },
+      {
+        name: 'Пудрова хна для брів + корекція',
+        price: '80 грн',
+        time: '1 год',
+      },
+      { name: 'Фарбування брів + корекція', price: '80 грн', time: '1 год' },
+      { name: 'Корекція та геометрія брів', price: '40 грн', time: '25 хв' },
+      {
+        name: 'Корекція та геометрія брів пінцетом + вусики',
+        price: '50 грн',
+        time: '30 хв',
+      },
+      {
+        name: 'Ламінування брів (без фарбування) + корекція',
+        price: '100 грн',
+        time: '45 хв',
+      },
+      { name: 'ПАКЕТ: Фарбування вій + брів', price: '140 грн', time: '1 год' },
+    ],
+    tinaServicesMicro: [
+      { name: 'Мікропігментація шкіри голови', price: '800 грн' },
+      { name: 'Мікропігментація бороди', price: '800 грн' },
+      { name: 'Мікропігментація верхньої частини голови', price: '4000 грн' },
+      { name: 'Корекція мікропігментації SMP', price: '600 грн' },
+    ],
   },
 
   pl: {
@@ -105,6 +211,116 @@ const translations = {
     aboutContact: 'Nasze dane kontaktowe:',
     aboutAddress: 'Babiego Lata 22, 53-020 Wrocław, Polska',
     aboutSubtitle: 'Adres salonu:',
+    barberPriceYaroslav: 'Barber Jarosław',
+    barberPriceYTina: 'Usługi Tina',
+    barberPriceYTinaMakeup: 'Makijaż permanentny',
+    barberPriceYTinaEyebrow: 'Brwi',
+    barberPriceYTinaSmp: 'Tina',
+    barberServices: [
+      { name: 'Strzyżenie', price: '110 zł', time: '50 min' },
+      { name: 'Strzyżenie + broda', price: '150 zł', time: '1 godz 25 min' },
+      {
+        name: 'Broda + golenie shaverem na zero',
+        price: '110 zł',
+        time: '50 min',
+      },
+      {
+        name: 'Strzyżenie brody + farbowanie',
+        price: '160 zł',
+        time: '1 godz 15 min',
+      },
+      {
+        name: 'Combo: Farbowanie włosów + broda + strzyżenie',
+        price: '280 zł',
+        time: '2 godz',
+      },
+      {
+        name: 'Combo: włosy + broda + farbowanie brody',
+        price: '230 zł',
+        time: '1 godz 40 min',
+      },
+      { name: 'Strzyżenie brody', price: '90 zł', time: '40 min' },
+      {
+        name: 'Strzyżenie + farbowanie włosów na ciemne kolory',
+        price: '180 zł',
+        time: '1 godz 30 min',
+      },
+      { name: 'Układanie włosów', price: '30 zł', time: '10 min' },
+      { name: 'Golenie głowy brzytwą', price: '50 zł', time: '0 min' },
+    ],
+    tinaServices: [
+      {
+        name: 'Makijaż permanentny brwi metodą pudrową',
+        price: '700 zł',
+        time: '1 godz 30 min',
+      },
+      { name: 'Makijaż permanentny ust', price: '800 zł', time: '2 godz' },
+      {
+        name: 'Korekta makijażu permanentnego brwi (tylko po mojej pracy)',
+        price: '300 zł',
+        time: '1 godz 30 min',
+      },
+      {
+        name: 'Korekta makijażu permanentnego ust (tylko po mojej pracy)',
+        price: '300 zł',
+        time: '1 godz 30 min',
+      },
+      {
+        name: 'Odnowienie makijażu permanentnego (brwi, usta)',
+        price: '450 zł',
+        time: '1 godz 30 min',
+      },
+      {
+        name: 'Combo - Makijaż permanentny brwi + usta',
+        price: '1350 zł',
+        time: '4 godz',
+      },
+      {
+        name: 'Korekta makijażu permanentnego brwi + usta',
+        price: '500 zł',
+        time: '3 godz',
+      },
+      {
+        name: 'Usunięcie makijażu permanentnego removerem',
+        price: '150 zł',
+        time: '30 min',
+      },
+    ],
+    tinaServicesEyebrows: [
+      {
+        name: 'Laminowanie brwi + korekta + farbowanie',
+        price: '150 zł',
+        time: '1 godz 30 min',
+      },
+      {
+        name: 'Pudrowa henna do brwi + korekta',
+        price: '80 zł',
+        time: '1 godz',
+      },
+      { name: 'Farbowanie brwi + korekta', price: '80 zł', time: '1 godz' },
+      { name: 'Korekta i geometria brwi', price: '40 zł', time: '25 min' },
+      {
+        name: 'Korekta i geometria brwi pęsetą + wąsiki',
+        price: '50 zł',
+        time: '30 min',
+      },
+      {
+        name: 'Laminowanie brwi (bez farbowania) + korekta',
+        price: '100 zł',
+        time: '45 min',
+      },
+      {
+        name: 'PAKIET: Farbowanie rzęs + brwi',
+        price: '140 zł',
+        time: '1 godz',
+      },
+    ],
+    tinaServicesMicro: [
+      { name: 'Mikropigmentacja skóry głowy', price: '800 zł' },
+      { name: 'Mikropigmentacja brody', price: '800 zł' },
+      { name: 'Mikropigmentacja górnej części głowy', price: '4000 zł' },
+      { name: 'Korekta mikropigmentacji SMP', price: '600 zł' },
+    ],
   },
 };
 
@@ -116,7 +332,37 @@ document.addEventListener('DOMContentLoaded', () => {
 function changeLanguage(lang) {
   if (!translations[lang]) return;
   localStorage.setItem('language', lang);
+
   document.querySelectorAll('[data-lang]').forEach(el => {
     el.innerHTML = translations[lang][el.getAttribute('data-lang')];
   });
+
+  updateServiceList('.price-yaroslav', translations[lang].barberServices);
+  updateServiceList('.price-tina', translations[lang].tinaServices);
+  updateServiceList(
+    '.price-tina-eyebrows',
+    translations[lang].tinaServicesEyebrows
+  );
+  updateServiceList('.price-tina-micro', translations[lang].tinaServicesMicro);
+}
+
+function updateServiceList(selector, services) {
+  const serviceList = document.querySelector(selector);
+  if (serviceList && services) {
+    serviceList.innerHTML = services
+      .map(
+        service => `
+        <li class="barber-service-item">
+          <p class="barber-service-text">${service.name}</p>
+          <span class="barber-price">${service.price}</span>
+          ${
+            service.time
+              ? `<span class="barber-time">${service.time}</span>`
+              : ''
+          }
+        </li>
+      `
+      )
+      .join('');
+  }
 }
