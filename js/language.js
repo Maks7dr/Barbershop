@@ -35,6 +35,22 @@ const translations = {
     staffZhenya: 'Женя',
     staffZhenyaText:
       'Опитний майстер з 5-річним стажем, який підкреслить вашу...',
+    smpTitle: 'SMP',
+    smpText:
+      'Мікропігментація шкіри голови <span class="text-golden">(SMP)</span> – це інноваційна процедура, яка створює візуальний ефект коротко стриженого волосся або збільшує його щільність. Це ідеальне рішення для тих, хто стикається з облисінням, рідким волоссям або шрамами на шкірі голови. Процедура виконується за допомогою спеціального обладнання та гіпоалергенних пігментів, які вводяться у верхні шари шкіри, імітуючи природний ріст волосся. Результат виглядає максимально природно та зберігається на довгі роки.',
+    smpSubtitle: 'Мікропігментація - це:',
+    smpItem1: 'Реалістичний ефект густого волосся',
+    smpItem2: 'Імітація волосся',
+    smpItem3: 'Безпека та безболісність',
+    smpItem4: 'Довговічний результат',
+    smpItem5: 'Альтернатива трансплантації',
+    smpItem6:
+      'Поверніть собі впевненість - підкресліть свій стиль за допомогою мікропігментації!',
+    galleryTitle: 'Наші роботи',
+    aboutTitle: 'Звяжіться з нами в зручний для вас спосіб',
+    aboutContact: 'Наші контакти:',
+    aboutAddress: 'Babiego Lata 22, 53-020 Wrocław, Польша',
+    aboutSubtitle: 'Адреса салону:',
   },
 
   pl: {
@@ -73,6 +89,22 @@ const translations = {
     staffZhenya: 'Żenia',
     staffZhenyaText:
       'Doświadczony mistrz z 5-letnim stażem, który podkreśli Twoją...',
+    smpTitle: 'SMP',
+    smpText:
+      'Mikropigmentacja skóry głowy <span class="text-golden">(SMP)</span> – to innowacyjny zabieg, który tworzy wizualny efekt krótko ostrzyżonych włosów lub zwiększa ich gęstość. To idealne rozwiązanie dla osób borykających się z łysieniem, rzadkimi włosami lub bliznami na skórze głowy. Zabieg wykonuje się przy użyciu specjalistycznego sprzętu i hipoalergicznych pigmentów, które są wprowadzane w górne warstwy skóry, imitując naturalny wzrost włosów. Efekt wygląda maksymalnie naturalnie i utrzymuje się przez długie lata.',
+    smpSubtitle: 'Mikropigmentacja to:',
+    smpItem1: 'Realistyczny efekt gęstych włosów',
+    smpItem2: 'Imitacja włosów',
+    smpItem3: 'Bezpieczeństwo i bezbolesność',
+    smpItem4: 'Długotrwały efekt',
+    smpItem5: 'Alternatywa dla przeszczepu włosów',
+    smpItem6:
+      'Odzyskaj pewność siebie – podkreśl swój styl dzięki mikropigmentacji!',
+    galleryTitle: 'Nasze prace',
+    aboutTitle: 'Skontaktuj się z nami w dogodny dla Ciebie sposób',
+    aboutContact: 'Nasze dane kontaktowe:',
+    aboutAddress: 'Babiego Lata 22, 53-020 Wrocław, Polska',
+    aboutSubtitle: 'Adres salonu:',
   },
 };
 
