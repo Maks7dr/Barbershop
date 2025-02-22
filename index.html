@@ -49,19 +49,27 @@
           </a>
           <ul class="header-list">
             <li class="header-item">
-              <a href="#services" class="header-link">Послуги</a>
+              <a href="#services" class="header-link" data-lang="services"
+                >Послуги</a
+              >
             </li>
             <li class="header-item">
-              <a href="#info" class="header-link">Про нас</a>
+              <a href="#info" class="header-link" data-lang="info">Про нас</a>
             </li>
             <li class="header-item">
-              <a href="#staff" class="header-link">Персонал</a>
+              <a href="#staff" class="header-link" data-lang="staff"
+                >Персонал</a
+              >
             </li>
             <li class="header-item">
-              <a href="#gallery" class="header-link">Галерея</a>
+              <a href="#gallery" class="header-link" data-lang="gallery"
+                >Галерея</a
+              >
             </li>
             <li class="header-item">
-              <a href="#about" class="header-link">Контакти</a>
+              <a href="#about" class="header-link" data-lang="contacts"
+                >Контакти</a
+              >
             </li>
           </ul>
         </nav>
@@ -107,7 +115,9 @@
           </li>
         </ul>
         <div class="header-info">
-          <p class="header-text">Графік роботи Пн-Сб: 10:00 - 20:00</p>
+          <p class="header-text" data-lang="work">
+            Графік роботи Пн-Сб: 10:00 - 20:00
+          </p>
           <a
             class="header-tel"
             href="tel:+48690591225"
@@ -117,12 +127,12 @@
           >
         </div>
         <div class="header-lang">
-          <a href="./index.html" class="header-lang-link">
+          <button class="header-lang-link" onclick="changeLanguage('ua')">
             <img src="./img/ukraine.png" alt="ukraine" width="20" height="20" />
-          </a>
-          <a href="#" class="header-lang-link">
+          </button>
+          <button class="header-lang-link" onclick="changeLanguage('pl')">
             <img src="./img/poland.png" alt="poland" width="20" height="20" />
-          </a>
+          </button>
         </div>
         <button type="button" class="header-btn js-open-menu">
           <svg class="header-open-nemu" width="30" height="30">
@@ -138,19 +148,29 @@
         </button>
         <ul class="modal-list">
           <li class="modal-item">
-            <a href="#services" class="modal-link">Послуги</a>
+            <a href="#services" class="modal-link" data-lang="services"
+              >Послуги</a
+            >
           </li>
           <li class="modal-item">
-            <a href="#info" class="modal-link">Про нас</a>
+            <a href="#info" class="modal-link" data-lang="info">Про нас</a>
           </li>
           <li class="modal-item">
-            <a href="#staff" class="modal-link">Персонал</a>
+            <a href="#staff" class="modal-link" data-lang="staff">Персонал</a>
           </li>
           <li class="modal-item">
-            <a href="#gallery" class="modal-link">Галерея</a>
+            <a
+              href="#gallery"
+              class="modal-link"
+              data-lang="gallery"
+              data-lang="gallery"
+              >Галерея</a
+            >
           </li>
           <li class="modal-item">
-            <a href="#about" class="modal-link">Контакти</a>
+            <a href="#about" class="modal-link" data-lang="contacts"
+              >Контакти</a
+            >
           </li>
         </ul>
         <ul class="about-social">
@@ -195,7 +215,9 @@
           </li>
         </ul>
         <div class="header-info">
-          <p class="header-text">Графік роботи Пн-Сб: 10:00 - 20:00</p>
+          <p class="header-text" data-lang="work">
+            Графік роботи Пн-Сб: 10:00 - 20:00
+          </p>
           <a class="header-tel" href="tel:+48690591225">+48690591225</a>
         </div>
       </div>
@@ -204,14 +226,17 @@
       <!-- hero -->
       <section class="hero">
         <div class="container hero-container">
-          <h1 class="hero-title">Стильні стрижки</h1>
-          <p class="text hero-text">Знайди свій стиль з нами!</p>
+          <h1 class="hero-title" data-lang="heroTitle">Стильні стрижки</h1>
+          <p class="text hero-text" data-lang="heroText">
+            Знайди свій стиль з нами!
+          </p>
 
           <a
             class="hero-tel"
             href="https://wa.me/+48690591225"
             aria-label="WhatsApp"
             target="_blank"
+            data-lang="heroTel"
             >Записатися на стрижку</a
           >
         </div>
@@ -225,7 +250,9 @@
             </svg>
           </a>
 
-          <h2 class="title services-title">Наші послуги</h2>
+          <h2 class="title services-title" data-lang="servicesTitle">
+            Наші послуги
+          </h2>
           <ul class="services-list">
             <li class="services-item">
               <img
@@ -237,8 +264,8 @@
                 height="502"
               />
               <div class="services-wrapper">
-                <h3 class="services-subtitle">Барбер</h3>
-                <p class="services-price">
+                <h3 class="services-subtitle" data-lang="barber">Барбер</h3>
+                <p class="services-price" data-lang="barberText">
                   Ми створюємо не просто стрижки, а підкреслюємо
                   індивідуальність кожного гостя. Тут панує атмосфера брутальної
                   естетики, затишку та бездоганного сервісу. Досвідчені барбери
@@ -246,11 +273,18 @@
                   використовуючи преміальні інструменти та косметику. Хочете
                   ідеальну стрижку, бездоганно оформлену бороду або просто
                   розслабитися і під час послуги випити віскі? У
-                  <span class="text-golden">Golden Arms</span> на вас чекає
-                  професійний підхід, увага до деталей та дружня атмосфера, в
-                  яку хочеться повертатися.
+                  <span class="text-golden" data-lang="barberGolden"
+                    >Golden Arms</span
+                  >
+                  на вас чекає професійний підхід, увага до деталей та дружня
+                  атмосфера, в яку хочеться повертатися.
                 </p>
-                <button class="services-btn btn" type="button" data-modal-open>
+                <button
+                  class="services-btn btn"
+                  type="button"
+                  data-modal-open
+                  data-lang="servicesbtn"
+                >
                   Подивитися ціни
                 </button>
               </div>
@@ -265,8 +299,10 @@
                 height="502"
               />
               <div class="services-wrapper">
-                <h3 class="services-subtitle">Перманентный макияж</h3>
-                <p class="services-price">
+                <h3 class="services-subtitle" data-lang="makeup">
+                  Перманентный макияж
+                </h3>
+                <p class="services-price" data-lang="makeupText">
                   Досконалість у кожній лінії – перманентний макіяж, який
                   підкреслює вашу природну красу. Перманентний макіяж – це не
                   просто процедура, а мистецтво, що дозволяє підкреслити
@@ -278,7 +314,12 @@
                   Перманентний макіяж – це впевненість у собі щоранку, без
                   зайвих зусиль. Будьте красивими завжди!
                 </p>
-                <button class="services-btn btn" type="button" data-modal-open>
+                <button
+                  class="services-btn btn"
+                  type="button"
+                  data-modal-open
+                  data-lang="servicesbtn"
+                >
                   Подивитися ціни
                 </button>
               </div>
@@ -293,8 +334,10 @@
                 height="502"
               />
               <div class="services-wrapper">
-                <h3 class="services-subtitle">Микропигментация кожи головы</h3>
-                <p class="services-price">
+                <h3 class="services-subtitle" data-lang="pigmentation">
+                  Микропигментация кожи головы
+                </h3>
+                <p class="services-price" data-lang="pigmentationText">
                   Мікропігментація шкіри голови
                   <span class="text-golden">SMP</span> – ефект густого волосся
                   без хірургії. Мікропігментація шкіри голови
@@ -308,7 +351,12 @@
                   волосся. Результат виглядає максимально природно та
                   зберігається на довгі роки.
                 </p>
-                <button class="services-btn btn" type="button" data-modal-open>
+                <button
+                  class="services-btn btn"
+                  type="button"
+                  data-modal-open
+                  data-lang="servicesbtn"
+                >
                   Подивитися ціни
                 </button>
               </div>
@@ -672,11 +720,11 @@
       <!-- info -->
       <section id="info" class="info sections">
         <div class="container">
-          <h2 class="title info-title">
+          <h2 class="title info-title" data-lang="infoTitle">
             Ласкаво просимо до <span class="text-golden">Golden Arms</span> —
             місця, де стиль зустрічається з традицією.
           </h2>
-          <p class="text info-text">
+          <p class="text info-text" data-lang="infoText">
             Ми створюємо не просто стрижки, а підкреслюємо індивідуальність
             кожного гостя. Тут панує атмосфера брутальної естетики, затишку та
             бездоганного сервісу. Досвідчені барбери працюють у кращих традиціях
@@ -693,7 +741,7 @@
       <!-- staff -->
       <section id="staff" class="staff sections">
         <div class="container staff-container">
-          <h2 class="title staff-title">Наш персонал</h2>
+          <h2 class="title staff-title" data-lang="staffTitle">Наш персонал</h2>
           <ul class="staff-list">
             <li class="staff-item">
               <img
@@ -705,8 +753,10 @@
                 height="502"
               />
               <div class="staff-wrapper">
-                <h3 class="staff-subtitle">Ярослав</h3>
-                <p class="staff-text">
+                <h3 class="staff-subtitle" data-lang="staffYaroslav">
+                  Ярослав
+                </h3>
+                <p class="staff-text" data-lang="staffYaroslavText">
                   Понад 7 років у професії, тисячі задоволених клієнтів та
                   бездоганний смак – Ярік не просто стриже, а створює стиль, що
                   підкреслює вашу індивідуальність. Класика чи сучасні тренди,
@@ -731,8 +781,8 @@
                 height="502"
               />
               <div class="staff-wrapper">
-                <h3 class="staff-subtitle">Тіна</h3>
-                <p class="staff-text">
+                <h3 class="staff-subtitle" data-lang="staffTina">Тіна</h3>
+                <p class="staff-text" data-lang="staffTinaText">
                   Майстер із 7-річним стажем, який підкреслить вашу природну
                   красу. З роками майстерності та увагою до деталей Тіна створює
                   ідеальні лінії, ніжні відтінки та бездоганні форми,
@@ -756,8 +806,8 @@
                 height="502"
               />
               <div class="staff-wrapper">
-                <h3 class="staff-subtitle">Женя</h3>
-                <p class="staff-text">
+                <h3 class="staff-subtitle" data-lang="staffZhenya">Женя</h3>
+                <p class="staff-text" data-lang="staffZhenyaText">
                   Опитний майстер з 5-річним стажем, який підкреслить вашу...
                 </p>
               </div>
@@ -958,6 +1008,7 @@
     <!-- script -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- <script src="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js"></script> -->
+    <script src="./js/language.js"></script>
     <script type="module" src="./js/swiper.js"></script>
   </body>
 </html>

@@ -212,6 +212,9 @@ address {
 .header-lang-link {
   transition: ease 0.3s;
   transition-property: transform;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
 .header-lang-link:active,
 .header-lang-link:hover {
@@ -702,6 +705,8 @@ address {
   align-items: center;
   position: relative;
   overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 1px rgb(171, 114, 0, 0.5);
 }
 .staff-item::before {
   content: '';
