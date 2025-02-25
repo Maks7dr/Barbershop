@@ -132,7 +132,6 @@ address {
   font-weight: 400;
   max-width: 500px;
 }
-
 /* #endregion */
 
 /* #region header */
@@ -581,7 +580,7 @@ address {
     0px 2px 1px rgba(0, 0, 0, 0.2);
 
   padding: 50px 24px 24px;
-  transition: transform 250ms ease;
+  transition: scale(1) 350ms ease;
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
 }
