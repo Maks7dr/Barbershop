@@ -159,9 +159,9 @@ const translations = {
       { name: 'Мікропігментація бороди', price: 'від 800 зл' },
       {
         name: 'Мікропігментація верхньої частини голови',
-        price: 'від 4000 зл',
+        price: '4000 зл',
       },
-      { name: 'Корекція мікропігментації SMP', price: 'від 600 зл' },
+      { name: 'Корекція мікропігментації SMP', price: '600 зл' },
     ],
   },
 
@@ -327,8 +327,8 @@ const translations = {
     tinaServicesMicro: [
       { name: 'Mikropigmentacja skóry głowy', price: 'od 800 zł' },
       { name: 'Mikropigmentacja brody', price: 'od 800 zł' },
-      { name: 'Mikropigmentacja górnej części głowy', price: 'od 4000 zł' },
-      { name: 'Korekta mikropigmentacji SMP', price: 'od 600 zł' },
+      { name: 'Mikropigmentacja górnej części głowy', price: '4000 zł' },
+      { name: 'Korekta mikropigmentacji SMP', price: '600 zł' },
     ],
   },
 };
