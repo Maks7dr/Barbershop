@@ -324,52 +324,35 @@ address {
   background-image: url(../img/hero/hero-mob@1x.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 300px;
-  padding-bottom: 300px;
+  padding-top: 400px;
+  padding-bottom: 200px;
 }
-
-@media only screen and (min-width: 768px) and (min-resolution: 2dppx) {
+@media only screen and (min-resolution: 2dppx) {
   .hero {
     background-image: url(../img/hero/hero-mob@2x.webp);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .hero {
+    background-image: url(../img/hero/hero-tab@1x.webp);
+  }
+}
+@media only screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../img/hero/hero-tab@2x.webp);
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .hero {
+    background-image: url(../img/hero/hero-desk@1x.webp);
   }
 }
 @media only screen and (min-width: 1280px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: url(../img/hero/hero-desk@1x.webp);
+    background-image: url(../img/hero/hero-desk@2x.webp);
   }
 }
-/* @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .hero {
-    background-image: url(../img/hero/hero-mob@2x.webp);
-  }
-} */
-/* @media only screen and (min-width: 768px) {
-  .hero {
-    background-image: url(../img/hero/hero-mob@2x.webp);
-  }
-} */
-/* @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
-    .hero {
-      background-image: url(../img/hero/hero-tab@1x.webp);
-    }
-  } */
-
-/* @media only screen and (min-width: 1280px) {
-  .hero {
-    background-image: url(../img/hero/hero-desk@1x.webp);
-  }
-} */
-/* @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
-    .hero {
-      background-image: url(../img/hero/hero-desk@1x.webp);
-    }
-  } */
-
-/* @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .hero {
-    background-image: url(../img/hero@2x.webp);
-  }
-} */
 
 .hero-container {
   display: flex;
@@ -754,6 +737,12 @@ address {
   object-fit: cover;
   border-radius: 10px;
 }
+@media only screen and (min-width: 1280px) {
+  .staff-img {
+    max-width: 255px;
+  }
+}
+
 .staff-wrapper {
   position: absolute;
   top: 20px;
@@ -768,6 +757,7 @@ address {
   font-weight: 400;
   text-transform: uppercase;
   margin-bottom: auto;
+  text-align: end;
 }
 .staff-text {
   font-size: 12px;
@@ -780,6 +770,12 @@ address {
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+@media only screen and (min-width: 1280px) {
+  .staff-text {
+    font-size: 10px;
+  }
 }
 
 /* .staff-item:hover .staff-text {
@@ -1026,7 +1022,7 @@ address {
 .about-map {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
 .about-video {
   display: flex;

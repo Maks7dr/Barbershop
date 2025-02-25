@@ -32,6 +32,9 @@ const translations = {
     staffTina: 'Тіна',
     staffTinaText:
       'Майстер із 7-річним стажем, який підкреслить вашу природну красу. З роками майстерності та увагою до деталей Тіна створює ідеальні лінії, ніжні відтінки та бездоганні форми, підкреслюючи унікальні риси кожного клієнта. Кожна робота — це поєднання техніки, індивідуального підходу та розуміння гармонії. Тіна використовує тільки професійне обладнання та якісні пігменти, щоб результат був природним, довговічним та комфортним. Важливо не просто нанести перманентний макіяж, а зберегти вашу природну привабливість, зробивши її виразнішою. Краса, яка залишається з вами надовго.',
+    staffAndrei: 'Андрій',
+    staffAndreiText:
+      'Досвідчений майстер з 5-річним стажем, який підкреслить вашу...',
     staffZhenya: 'Женя',
     staffZhenyaText:
       'Опитний майстер з 5-річним стажем, який підкреслить вашу...',
@@ -189,13 +192,16 @@ const translations = {
     infoText:
       'Tworzymy nie tylko fryzury, ale podkreślamy indywidualność każdego gościa. Panuje tu atmosfera brutalnej estetyki, przytulności i nienagannego serwisu. Doświadczeni barberzy pracują w najlepszych tradycjach klasycznego męskiego groomingu, używając premium narzędzi i kosmetyków. Chcesz idealną fryzurę, perfekcyjnie wystylizowaną brodę, czy po prostu zrelaksować się i wypić whisky podczas usługi? W Golden Arms czeka na Ciebie profesjonalne podejście, dbałość o szczegóły i przyjazna atmosfera, do której chce się wracać. <span class="text-golden">Golden Arms</span> — miejsce, gdzie rodzi się Twój styl.',
     staffTitle: 'Nasz personel',
-    staffYaroslav: 'Jarosław',
+    staffYaroslav: 'Yarek',
     staffYaroslavText:
       'Ponad 7 lat w zawodzie, tysiące zadowolonych klientów i nienaganny smak – Yarik nie tylko strzyże, ale tworzy styl, który podkreśla Twoją indywidualność. Klasyka czy nowoczesne trendy, idealnie wystylizowana broda czy golenie brzytwą – każdy ruch jego pracy jest dopracowany do perfekcji. Wie, jak dobrać fryzurę do kształtu twarzy, struktury włosów i stylu życia, aby rezultat był idealny w każdej sytuacji. W fotelu Yarika nie tylko otrzymasz profesjonalną pielęgnację, ale także zrelaksujesz się w atmosferze przytulności, męskiego stylu i wysokiej jakości serwisu. Twój wygląd to jego sprawa. Zaufaj profesjonaliście!',
     staffTina: 'Tina',
     staffTinaText:
       'Mistrz z 7-letnim doświadczeniem, który podkreśli Twoje naturalne piękno. Z latami mistrzostwa i dbałością o szczegóły Tina tworzy idealne linie, delikatne odcienie i nienaganne formy, podkreślając unikalne cechy każdego klienta. Każda praca to połączenie techniki, indywidualnego podejścia i zrozumienia harmonii. Tina używa tylko profesjonalnego sprzętu i wysokiej jakości pigmentów, aby rezultat był naturalny, trwały i komfortowy. Ważne jest nie tylko nałożenie makijażu permanentnego, ale także zachowanie Twojej naturalnej atrakcyjności, czyniąc ją bardziej wyrazistą. Piękno, które pozostaje z Tobą na długo.',
-    staffZhenya: 'Żenia',
+    staffAndrei: 'Andrzej',
+    staffAndreiText:
+      'Doświadczony mistrz z 5-letnim stażem, który podkreśli twoją...',
+    staffZhenya: 'Ewgenii',
     staffZhenyaText:
       'Doświadczony mistrz z 5-letnim stażem, który podkreśli Twoją...',
     smpTitle: 'SMP',
