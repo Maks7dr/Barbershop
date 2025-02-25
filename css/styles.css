@@ -328,31 +328,43 @@ address {
   padding-top: 300px;
   padding-bottom: 300px;
 }
+
+@media only screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../img/hero/hero-mob@2x.webp);
+  }
+}
+@media only screen and (min-width: 1280px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../img/hero/hero-desk@1x.webp);
+  }
+}
 /* @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
     background-image: url(../img/hero/hero-mob@2x.webp);
   }
 } */
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
   .hero {
     background-image: url(../img/hero/hero-mob@2x.webp);
   }
-  /* @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+} */
+/* @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .hero {
       background-image: url(../img/hero/hero-tab@1x.webp);
     }
   } */
-}
-@media only screen and (min-width: 1280px) {
+
+/* @media only screen and (min-width: 1280px) {
   .hero {
     background-image: url(../img/hero/hero-desk@1x.webp);
   }
-  /* @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+} */
+/* @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .hero {
       background-image: url(../img/hero/hero-desk@1x.webp);
     }
   } */
-}
 
 /* @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
