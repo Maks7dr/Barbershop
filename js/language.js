@@ -34,10 +34,10 @@ const translations = {
       'Майстер із 7-річним стажем, який підкреслить вашу природну красу. З роками майстерності та увагою до деталей Тіна створює ідеальні лінії, ніжні відтінки та бездоганні форми, підкреслюючи унікальні риси кожного клієнта. Кожна робота — це поєднання техніки, індивідуального підходу та розуміння гармонії. Тіна використовує тільки професійне обладнання та якісні пігменти, щоб результат був природним, довговічним та комфортним. Важливо не просто нанести перманентний макіяж, а зберегти вашу природну привабливість, зробивши її виразнішою. Краса, яка залишається з вами надовго.',
     staffAndrei: 'Андрій',
     staffAndreiText:
-      'Досвідчений майстер з 5-річним стажем, який підкреслить вашу...',
+      'Барбер, який розуміє, що вам потрібно. 3 роки досвіду, топові стрижки та борода.',
     staffZhenya: 'Женя',
     staffZhenyaText:
-      'Опитний майстер з 5-річним стажем, який підкреслить вашу...',
+      'Барбер, який знається на стилі. 3 роки досвіду, сучасні техніки, індивідуальний підхід. Записуйтесь – ваш новий образ чекає!',
     smpTitle: 'SMP',
     smpText:
       'Мікропігментація шкіри голови <span class="text-golden">(SMP)</span> – це інноваційна процедура, яка створює візуальний ефект коротко стриженого волосся або збільшує його щільність. Це ідеальне рішення для тих, хто стикається з облисінням, рідким волоссям або шрамами на шкірі голови. Процедура виконується за допомогою спеціального обладнання та гіпоалергенних пігментів, які вводяться у верхні шари шкіри, імітуючи природний ріст волосся. Результат виглядає максимально природно та зберігається на довгі роки.',
@@ -54,7 +54,9 @@ const translations = {
     aboutContact: 'Наші контакти:',
     aboutAddress: 'Babiego Lata 22, 53-020 Wrocław, Польша',
     aboutSubtitle: 'Адреса салону:',
-    barberPriceYaroslav: 'Барбер Ярослав',
+    barberPriceMan: 'Ярослав',
+    barberPriceYaroslav: 'Послуги Ярослава',
+    barberPriceAndriyandZhenya: 'Послуги Андрія та Жені',
     barberPriceYTina: 'Послуги Тіна',
     barberPriceYTinaMakeup: 'Перманентний макіяж',
     barberPriceYTinaEyebrow: 'Брови',
@@ -90,6 +92,53 @@ const translations = {
       },
       { name: 'Укладання волосся', price: '30 зл', time: '10 хв' },
       { name: 'Гоління голови бритвою', price: '50 зл', time: '0 хв' },
+    ],
+    barberServicesMan: [
+      {
+        name: 'Стрижка',
+        price: '90 зл',
+        time: '1 год',
+      },
+      {
+        name: 'Стрижка бороди + фарбування',
+        price: '140 зл',
+        time: '1 год 25 хв',
+      },
+      {
+        name: 'Стрижка + борода',
+        price: '130 зл',
+        time: '1 год 30 хв',
+      },
+      {
+        name: 'Комбо: волосся + борода + фарбування бороди',
+        price: '200 зл',
+        time: '2 год',
+      },
+      {
+        name: 'Борода + гоління голови шейвером на нуль',
+        price: '90 зл',
+        time: '50 хв',
+      },
+      {
+        name: 'Стрижка бороди',
+        price: '70 зл',
+        time: '50 хв',
+      },
+      {
+        name: 'Тонування бороди',
+        price: '70 зл',
+        time: '40 хв',
+      },
+      {
+        name: 'Стрижка + Фарбування волосся в темні кольори',
+        price: '140 зл',
+        time: '1 год 30 хв',
+      },
+      {
+        name: 'Гоління голови бритвою',
+        price: '50 зл',
+        time: '30 хв',
+      },
     ],
     tinaServices: [
       {
@@ -198,12 +247,12 @@ const translations = {
     staffTina: 'Tina',
     staffTinaText:
       'Mistrz z 7-letnim doświadczeniem, który podkreśli Twoje naturalne piękno. Z latami mistrzostwa i dbałością o szczegóły Tina tworzy idealne linie, delikatne odcienie i nienaganne formy, podkreślając unikalne cechy każdego klienta. Każda praca to połączenie techniki, indywidualnego podejścia i zrozumienia harmonii. Tina używa tylko profesjonalnego sprzętu i wysokiej jakości pigmentów, aby rezultat był naturalny, trwały i komfortowy. Ważne jest nie tylko nałożenie makijażu permanentnego, ale także zachowanie Twojej naturalnej atrakcyjności, czyniąc ją bardziej wyrazistą. Piękno, które pozostaje z Tobą na długo.',
-    staffAndrei: 'Andrzej',
+    staffAndrei: 'Andrei',
     staffAndreiText:
-      'Doświadczony mistrz z 5-letnim stażem, który podkreśli twoją...',
+      'Barber, który rozumie, czego potrzebujesz. 3 lata doświadczenia, topowe strzyżenia i broda.',
     staffZhenya: 'Ewgenii',
     staffZhenyaText:
-      'Doświadczony mistrz z 5-letnim stażem, który podkreśli Twoją...',
+      'Barber, który zna się na stylu. 3 lata doświadczenia, nowoczesne techniki, indywidualne podejście. Zapisz się – Twój nowy wizerunek czeka!',
     smpTitle: 'SMP',
     smpText:
       'Mikropigmentacja skóry głowy <span class="text-golden">(SMP)</span> – to innowacyjny zabieg, który tworzy wizualny efekt krótko ostrzyżonych włosów lub zwiększa ich gęstość. To idealne rozwiązanie dla osób borykających się z łysieniem, rzadkimi włosami lub bliznami na skórze głowy. Zabieg wykonuje się przy użyciu specjalistycznego sprzętu i hipoalergicznych pigmentów, które są wprowadzane w górne warstwy skóry, imitując naturalny wzrost włosów. Efekt wygląda maksymalnie naturalnie i utrzymuje się przez długie lata.',
@@ -220,7 +269,9 @@ const translations = {
     aboutContact: 'Nasze dane kontaktowe:',
     aboutAddress: 'Babiego Lata 22, 53-020 Wrocław, Polska',
     aboutSubtitle: 'Adres salonu:',
-    barberPriceYaroslav: 'Barber Jarosław',
+    barberPriceMan: 'Barber',
+    barberPriceYaroslav: 'Usługi Yareka',
+    barberPriceAndriyandZhenya: 'Usługi Andrei i Ewgenii',
     barberPriceYTina: 'Usługi Tina',
     barberPriceYTinaMakeup: 'Makijaż permanentny',
     barberPriceYTinaEyebrow: 'Brwi',
@@ -256,6 +307,53 @@ const translations = {
       },
       { name: 'Układanie włosów', price: '30 zł', time: '10 min' },
       { name: 'Golenie głowy brzytwą', price: '50 zł', time: '0 min' },
+    ],
+    barberServicesMan: [
+      {
+        name: 'Strzyżenie',
+        price: '90 zł',
+        time: '1 godz',
+      },
+      {
+        name: 'Strzyżenie brody + farbowanie',
+        price: '140 zł',
+        time: '1 godz 25 min',
+      },
+      {
+        name: 'Strzyżenie + broda',
+        price: '130 zł',
+        time: '1 godz 30 min',
+      },
+      {
+        name: 'Combo: włosy + broda + farbowanie brody',
+        price: '200 zł',
+        time: '2 godz',
+      },
+      {
+        name: 'Broda + golenie głowy shaver na zero',
+        price: '90 zł',
+        time: '50 min',
+      },
+      {
+        name: 'Strzyżenie brody',
+        price: '70 zł',
+        time: '50 min',
+      },
+      {
+        name: 'Tonowanie brody',
+        price: '70 zł',
+        time: '40 min',
+      },
+      {
+        name: 'Strzyżenie + Farbowanie włosów w ciemne kolory',
+        price: '140 zł',
+        time: '1 godz 30 min',
+      },
+      {
+        name: 'Golenie głowy golarka',
+        price: '50 zł',
+        time: '30 min',
+      },
     ],
     tinaServices: [
       {
@@ -347,6 +445,10 @@ function changeLanguage(lang) {
   });
 
   updateServiceList('.price-yaroslav', translations[lang].barberServices);
+  updateServiceList(
+    '.price-andriy-and-zhenya',
+    translations[lang].barberServicesMan
+  );
   updateServiceList('.price-tina', translations[lang].tinaServices);
   updateServiceList(
     '.price-tina-eyebrows',
