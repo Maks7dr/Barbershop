@@ -985,6 +985,10 @@ address {
   transform: scale(1.05);
   color: var(--color-primary-brand);
 }
+.about-item-booksy {
+  display: flex;
+  align-items: normal;
+}
 .about-icons {
 }
 .about-text {
