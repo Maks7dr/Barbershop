@@ -469,6 +469,7 @@ address {
   height: 100%;
   background: rgba(0, 0, 0, 0);
   transition: background 0.3s ease;
+
   border-radius: 10px;
 }
 
@@ -478,6 +479,10 @@ address {
 .services-item:hover .services-price {
   opacity: 1;
   visibility: visible;
+}
+.services-item:hover .services-subtitle {
+  color: var(--color-primary-brand);
+  transform: scale(1.1);
 }
 .services-img {
   object-fit: cover;
@@ -499,6 +504,7 @@ address {
   font-weight: 400;
   text-transform: uppercase;
   margin-bottom: auto;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .services-price {
@@ -732,6 +738,10 @@ address {
   opacity: 1;
   visibility: visible;
 }
+.staff-item:hover .staff-subtitle {
+  color: var(--color-primary-brand);
+  transform: scale(1.1);
+}
 
 .staff-img {
   object-fit: cover;
@@ -758,6 +768,7 @@ address {
   text-transform: uppercase;
   margin-bottom: auto;
   text-align: end;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 .staff-text {
   font-size: 12px;
