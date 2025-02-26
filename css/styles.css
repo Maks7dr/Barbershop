@@ -326,18 +326,15 @@ address {
   background-size: cover;
   padding-top: 400px;
   padding-bottom: 200px;
-  background-position-y: -145px;
 }
 @media only screen and (min-resolution: 2dppx) {
   .hero {
     background-image: url(../img/hero/hero-mob@2x.webp);
   }
 }
-
 @media only screen and (min-width: 768px) {
   .hero {
     background-image: url(../img/hero/hero-tab@1x.webp);
-    background-position-y: -90px;
   }
 }
 @media only screen and (min-width: 768px) and (min-resolution: 2dppx) {

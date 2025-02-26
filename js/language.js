@@ -91,7 +91,7 @@ const translations = {
         time: '1 год 30 хв',
       },
       { name: 'Укладання волосся', price: '30 зл', time: '10 хв' },
-      { name: 'Гоління голови бритвою', price: '50 зл', time: '0 хв' },
+      { name: 'Гоління голови бритвою', price: '50 зл', time: '10 хв' },
     ],
     barberServicesMan: [
       {
@@ -137,7 +137,7 @@ const translations = {
       {
         name: 'Гоління голови бритвою',
         price: '50 зл',
-        time: '30 хв',
+        time: '10 хв',
       },
     ],
     tinaServices: [
@@ -306,7 +306,7 @@ const translations = {
         time: '1 godz 30 min',
       },
       { name: 'Układanie włosów', price: '30 zł', time: '10 min' },
-      { name: 'Golenie głowy brzytwą', price: '50 zł', time: '0 min' },
+      { name: 'Golenie głowy brzytwą', price: '50 zł', time: '10 min' },
     ],
     barberServicesMan: [
       {
@@ -352,7 +352,7 @@ const translations = {
       {
         name: 'Golenie głowy golarka',
         price: '50 zł',
-        time: '30 min',
+        time: '10 min',
       },
     ],
     tinaServices: [
