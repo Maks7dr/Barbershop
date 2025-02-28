@@ -13,6 +13,3 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 });
-
-const version = '3.1';
-document.write(`<script src="app.js?v=${version}"><\/script>`);

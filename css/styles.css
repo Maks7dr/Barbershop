@@ -928,10 +928,8 @@ address {
 }
 .swiper-pagination {
   .swiper-pagination-bullet {
-    margin-top: 20px;
     width: 10px;
     height: 10px;
-    margin: 0 10px;
     opacity: 1;
     transition: ease 0.3s;
     transition-property: background-color transform;
