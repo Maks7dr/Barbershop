@@ -26,6 +26,14 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+    <!-- Preload -->
+    <link
+      rel="preload"
+      fetchpriority="high"
+      as="image"
+      href="../img/hero/hero-mob@1x.webp"
+      type="image/webp"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -137,7 +145,11 @@
         </button>
       </div>
       <div class="overlay js-menu-container">
-        <button type="button" class="modal-close js-close-menu">
+        <button
+          type="button"
+          class="modal-close js-close-menu"
+          aria-label="close"
+        >
           <svg class="modal-close-icon" width="30" height="30">
             <use href="./img/icons.svg#icon-close"></use>
           </svg>
@@ -1468,6 +1480,6 @@
     <script type="module" src="./js/mobile-menu.js"></script>
     <script type="module" src="./js/modal-overlay.js"></script>
     <script type="module" src="./js/button-top.js"></script>
-    <script type="module" src="./js/swiper.js"></script>
+    <script type="module" src="./js/swiper.js" defer></script>
   </body>
 </html>

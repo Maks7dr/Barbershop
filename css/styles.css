@@ -1,9 +1,9 @@
 /* #region Common */
-
+/* --color-primary-brand: #ab7200; */
 :root {
   --color-black-text: #141414;
   --color-white-text: #fbfbfb;
-  --color-primary-brand: #ab7200;
+  --color-primary-brand: #926202;
   --color-accent: #d4bfc4;
   --color-green-background: #576f35;
   --сolor-details: #858585;
@@ -818,7 +818,7 @@ address {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url(../img/smp/spm-mob@2x.webp);
+    url(../img/smp/);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
