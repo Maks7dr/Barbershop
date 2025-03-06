@@ -432,7 +432,7 @@ const translations = {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-  const savedLang = localStorage.getItem('language') || 'ua';
+  const savedLang = localStorage.getItem('language') || 'pl';
   changeLanguage(savedLang);
 });
 
