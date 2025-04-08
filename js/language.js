@@ -4,6 +4,7 @@ const translations = {
     info: 'Про нас',
     staff: 'Персонал',
     gallery: 'Галерея',
+    covers: 'Відгуки',
     contacts: 'Контакти',
     work: 'Графік роботи Пн-Сб: 10:00 - 20:00',
     heroTitle: 'Golden Arms',
@@ -50,6 +51,7 @@ const translations = {
     smpItem6:
       'Поверніть собі впевненість - підкресліть свій стиль за допомогою мікропігментації!',
     galleryTitle: 'Наші роботи',
+    coversTitle: 'Відгуки',
     aboutTitle: 'Звяжіться з нами в зручний для вас спосіб',
     aboutContact: 'Наші контакти:',
     aboutAddress: 'Babiego Lata 22, 53-020 Wrocław, Польша',
@@ -219,6 +221,7 @@ const translations = {
     info: 'O nas',
     staff: 'Personel',
     gallery: 'Galeria',
+    covers: 'Opinie',
     contacts: 'Kontakt',
     work: 'Godziny otwarcia: Pn-Sb: 10:00-20:00',
     heroTitle: 'Golden Arms',
@@ -265,6 +268,7 @@ const translations = {
     smpItem6:
       'Odzyskaj pewność siebie – podkreśl swój styl dzięki mikropigmentacji!',
     galleryTitle: 'Nasze prace',
+    coversTitle: 'Opinie',
     aboutTitle: 'Skontaktuj się z nami w dogodny dla Ciebie sposób',
     aboutContact: 'Nasze dane kontaktowe:',
     aboutAddress: 'Babiego Lata 22, 53-020 Wrocław, Polska',
