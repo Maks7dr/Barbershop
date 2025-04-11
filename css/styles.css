@@ -1160,10 +1160,10 @@ address {
   }
 }
 .covers-list:nth-child(odd) .covers-item {
-  animation: marqueeLeft 5s linear infinite;
+  animation: marqueeLeft 5s linear infinite alternate;
 }
 .covers-list:nth-child(even) .covers-item {
-  animation: marqueeRight 5s linear infinite;
+  animation: marqueeRight 5s linear infinite alternate;
 }
 
 .covers-item {
